@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity5">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="131dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView10"
+                    android:layout_width="32dp"
+                    android:layout_height="32dp"
+                    android:layout_weight="1"
+                    android:translationY="74dp"
+                    app:srcCompat="@drawable/hello" />
+
+                <TextView
+                    android:id="@+id/textView8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="Добро пожаловать!"
+                    android:textColor="#000000"
+                    android:textSize="24sp"
+                    android:textStyle="bold"
+                    android:translationX="-16dp"
+                    android:translationY="74dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="103dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textView11"
+                    android:layout_width="335dp"
+                    android:layout_height="40dp"
+                    android:layout_weight="1"
+                    android:text="Войдите, чтобы пользоваться функциями\nприложения"
+                    android:textAlignment="textStart"
+                    android:textColor="#000000"
+                    android:textSize="15sp"
+                    android:translationX="36dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="469dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/textView12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Вход по E-mail"
+                    android:translationX="36dp" />
+
+                <EditText
+                    android:id="@+id/editTextTextEmailAddress"
+                    android:layout_width="335dp"
+                    android:layout_height="48dp"
+                    android:background="@drawable/bg"
+                    android:ems="10"
+                    android:inputType="textEmailAddress"
+                    android:textStyle="bold"
+                    android:translationX="36dp" />
+
+                <Button
+                    android:id="@+id/button"
+                    android:layout_width="335dp"
+                    android:layout_height="60dp"
+                    android:text="Далее"
+                    android:textAllCaps="false"
+                    android:textStyle="bold"
+                    android:translationX="36dp"
+                    android:translationY="25dp"
+                    android:backgroundTint="#C9D4FB"/>
+
+                <TextView
+                    android:id="@+id/textView13"
+                    android:layout_width="335dp"
+                    android:layout_height="20dp"
+                    android:text="Или войдите с помощью"
+                    android:translationX="125dp"
+                    android:translationY="240dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="335dp"
+                    android:layout_height="60dp"
+                    android:backgroundTint="@android:color/background_light"
+                    android:text="Войти с Яндекс"
+                    android:textAllCaps="false"
+                    android:textColor="#000000"
+                    android:textStyle="bold"
+                    android:translationX="36dp"
+                    android:translationY="250dp"
+                    app:strokeColor="#FFFFFF" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

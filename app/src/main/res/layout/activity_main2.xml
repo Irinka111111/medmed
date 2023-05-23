@@ -4,7 +4,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/onboard"
     tools:context=".MainActivity2">
 
     <LinearLayout
@@ -34,7 +33,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_weight="1"
-                android:translationX="32dp"
                 app:srcCompat="@drawable/shape" />
         </LinearLayout>
 
@@ -50,7 +48,7 @@
             android:id="@+id/textView3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="TextView"
+            android:text="Экспресс сбор и получение проб"
             android:textAlignment="center"
             android:textAllCaps="false" />
 
