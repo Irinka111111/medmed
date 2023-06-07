@@ -66,12 +66,22 @@
         </LinearLayout>
 
         <TextView
-            android:id="@+id/textView15"
+            android:id="@+id/timer"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:text="Отправить код повторно можно\nбудет через 59 секунд"
+            android:text=""
             android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/resend"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:translationY="40dp"
+            android:gravity="center"
+            android:text="Отправить код повторно"
+            android:textColor="#1A6FEE"/>
+
 
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
